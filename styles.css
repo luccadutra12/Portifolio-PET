@@ -332,6 +332,11 @@ a {
   flex-wrap: wrap;
 }
 
+.sobre {
+  width: 100%;
+  text-align: justify;
+}
+
 @media (max-width: 900px) {
   .hero__content,
   .section__grid,

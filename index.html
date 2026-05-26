@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfólio Profissional | Peterson Dutra</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container header__content">
+      <a class="brand" href="#home">Peterson</a>
+      <nav class="nav" id="navMenu">
+        <a href="#home">Início</a>
+        <a href="#about">Sobre</a>
+        <a href="#skills">Habilidades</a>
+        <a href="#projects">Projetos</a>
+        <a href="#contact">Contato</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero__content">
+        <div>
+          <p class="eyebrow">Olá, eu sou</p>
+          <h1>Peterson Dutra</h1>
+          <p class="hero__description">
+            Trabalho com treinamento e desenvolvemento de pessoas, produção de eventos, palestras e consultorias.
+          </p>
+          <div class="hero__actions">
+            <a class="button button--primary" href="#projects">Ver projetos</a>
+            <a class="button button--secondary" href="#contact">Fale comigo</a>
+          </div>
+        </div>
+        <div class="hero__card">
+          <div class="hero__profile">
+            <img src="fotos/" alt="Foto de Peterson Dutra" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--light" id="about">
+      <div class="container section__grid">
+        <div>
+          <h2>Sobre mim</h2>
+          <p> Profissional com ampla experiência em produção executiva, coordenação de eventos e soluções estratégicas, atuando em grandes projetos corporativos e experiências de entretenimento. Possui forte habilidade em liderança de equipes, organização operacional e desenvolvimento de soluções criativas para eventos e empresas.
+          <p> Ao longo da carreira, participou e coordenou projetos de destaque, como a produção executiva da Heineken e a direção executiva do estande da NBA na CCXP. Também atua na criação e desenvolvimento de jogos corporativos, administração empresarial, coordenação de recreação e gestão de acampamentos. <p>
+         </p> Reconhecido pela capacidade de transformar ideias em experiências marcantes, unindo planejamento, inovação e excelência na execução de cada projeto. </p>
+        
+
+        </div>
+        <div class="about__stats">
+          <div class="stat">
+            <strong>600+</strong>
+            <span>eventos concluídos</span>
+          </div>
+          <div class="stat">
+            <strong>50.000+</strong>
+            <span>clientes satisfeitos</span>
+          </div>
+          <div class="stat">
+            <strong>-faer depois-</strong>
+            <span>certificações técnicas</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="container">
+        <h2>Habilidades</h2>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <h3>Liderança Estratégica</h3>
+            <p>Capacidade de orientar equipes e tomar decisões baseadas em análise e visão de longo prazo.</p>
+          </div>
+          <div class="skill-card">
+            <h3>Comunicação Assertiva</h3>
+            <p>Capacidade de se comunicar de forma clara e eficaz, tanto oral quanto por escrito.</p>
+          </div>
+          <div class="skill-card">
+            <h3>Inteligência Emocional</h3>
+            <p>Consciência e controle das próprias emoções e a capacidade de entender as emoções dos outros.</p>
+          </div>
+          <div class="skill-card">
+            <h3>Visão Estratégica</h3>
+            <p>Capacidade de pensar de forma abrangente e planejar ações que alinhem com os objetivos organizacionais.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--light" id="projects">
+      <div class="container">
+        <h2>Eventos</h2>
+        <div class="projects-grid">
+          <article class="project-card">
+            <h3>Eagles Flight</h3>
+            <p>Treinamentos comportamentais para equipes.</p>
+          </article>
+          <article class="project-card">
+            <h3>Heineken/APAS</h3>
+            <p>Produção executiva.</p>
+          </article>
+          <article class="project-card">
+            <h3>NBA</h3>
+            <p>Produção executiva do estande da NBA na CCXP.</p>
+          </article>
+           <article class="project-card">
+            <h3>Sicredi Eagles Flight</h3>
+            <p>Treinamentos comportamentais outdoor.</p>
+
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container section__grid">
+        <div>
+          <h2>Contato</h2>
+          <p>Vamos conversar sobre o próximo projeto? Envie uma mensagem e eu respondo rapidinho.</p>
+          <ul class="contact-list">
+            <li><strong>Email:</strong> ptersondutra@hotmail.com</li>
+            <li><strong>Telefone:</strong> +55 11 97020-0646</li>
+            <li><strong>LinkedIn:</strong> linkedin.com/in/lucca</li>
+          </ul>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <label>
+            Nome
+            <input type="text" name="name" placeholder="Seu nome" required />
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" placeholder="seu@email.com" required />
+          </label>
+          <label>
+            Mensagem
+            <textarea name="message" rows="5" placeholder="Como posso ajudar?" required></textarea>
+          </label>
+          <button class="button button--primary" type="submit">Enviar mensagem</button>
+          <p class="form-feedback" id="formFeedback"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__content">
+      <p>© 2026 Lucca Dutra. Todos os direitos reservados.</p>
+      <p>Desenvolvido com HTML, CSS e JavaScript.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
